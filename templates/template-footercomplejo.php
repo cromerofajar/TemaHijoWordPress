@@ -1,7 +1,7 @@
 <?php
 /**
  *
- * Template Name: Nuevo
+ * Template Name: FooterComplejo
  * Template Post Type: post, page
  * 
  * @package WordPress
@@ -29,10 +29,9 @@ get_header(); ?>
 
 			endwhile; // End of the loop.
 			?>
-            <h1>Prueba del nuevo template</h1>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 </div><!-- .wrap -->
 
 <?php
-get_footer();
+get_footer("footercomplejo");

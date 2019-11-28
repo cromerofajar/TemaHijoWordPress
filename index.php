@@ -38,6 +38,7 @@ get_header(); ?>
 				while ( have_posts() ) :
 					the_post();
 					the_excerpt();
+					the_author();
 					/*
 					 * Include the Post-Format-specific template for the content.
 					 * If you want to override this in a child theme, then include a file
